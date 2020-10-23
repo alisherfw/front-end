@@ -147,3 +147,25 @@
 #closeButton:hover {
 	background-color: #666;
 }
+.left-text {
+	text-align: left;	
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+.last-buy {
+	margin:auto;
+	width: 40%;
+ 	text-align: center;
+}
+.dates {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	width: 80%;
+ 	text-align: center;
+}
+.squads {
+	display: block;
+	flex-direction: column;
+}
