@@ -100,4 +100,44 @@
 
 .btn:hover {
   background-color: white;
+  color: black;
+}
+.adblock {
+	text-align: center;
+}
+.information {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	color: black;
+	align-items: center;
+}
+.no-img {
+	width: 80%;
+	height: 200px;
+	background-color: #dbdbdb;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.show-btn {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-top: 0px;
+}
+.show-btn:hover {
+	background-color: #666;
+}
+#third {
+	display: none;
+}
+.cls-btn {
+	margin-right: auto;
+	margin-left: auto;
+	display: none;
+	margin-top: 10px;	
+}
+#closeButton:hover {
+	background-color: #666;
 }
