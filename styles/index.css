@@ -2,7 +2,7 @@
 	background-color: #dedede;
 	align-items: center;
 	height: 100px;
-	
+	position: fixed;
 }
 .nav-img {
 	height: 90px;
@@ -12,9 +12,9 @@
     position: relative;
 }
 .navbar-img {
-    position: absolute;
-    left: 50%;
-    margin-left: -50px !important;
+    position: relative;
+    /*left: 50%;*/
+    /*margin-left: -50px !important;*/
     display: block;
 }
 .nav-text {
