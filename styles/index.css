@@ -10,6 +10,10 @@
 }
 .navbar {
     position: relative;
+    position: -webkit-sticky; /* Safari */
+	position: sticky;
+  	top: 0;
+
 }
 .navbar-img {
     position: relative;
@@ -107,11 +111,13 @@
 }
 .information {
 	width: 100%;
-	position: relative;
-	text-align: center;
-	color: black;
-	align-items: center;
 }
+
+.information h5 {
+	margin-top: 8px; 
+	margin-left: 150px;
+}
+
 .no-img {
 	width: 80%;
 	height: 200px;
