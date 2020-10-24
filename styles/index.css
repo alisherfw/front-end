@@ -203,6 +203,7 @@
 
 .left-text, .last-buy {
 	width: 90%;
+	margin-left: 0px;
 }
 
 }
