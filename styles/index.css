@@ -179,3 +179,26 @@
 .bottom-icon {
 	margin-left: 150px;
 }
+
+@media only screen and (max-width: 600px) {
+
+.jumbotron-1 {
+	display: block;
+  	flex-direction: column;
+}
+
+
+
+.navbar-img {
+	display: none;
+}
+
+.bottom-nav {
+	display: block;
+	flex-direction: column;
+}
+.bottom-icon {
+	margin: 10px;
+}
+
+}
