@@ -202,7 +202,6 @@
 .left-text, .last-buy {
 	width: 90%;
 	margin-left: 10px;
-	align-self: center;
 }
 .navbar svg {
 	width: 2em;
@@ -233,6 +232,7 @@ button {
 #header-text {
 	font-size: 20px;
 	text-align: center;	
+	margin-top: 20px;
 }
 
 }
