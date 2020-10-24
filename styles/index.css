@@ -169,3 +169,13 @@
 	display: block;
 	flex-direction: column;
 }
+.bottom-nav {
+	display: block;
+	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.bottom-icon {
+	margin-left: 150px;
+}
