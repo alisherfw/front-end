@@ -201,4 +201,8 @@
 	margin: 10px;
 }
 
+.left-text, .last-buy {
+	width: 90%;
+}
+
 }
