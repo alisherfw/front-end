@@ -201,11 +201,14 @@
 	width: 90%;
 	margin-left: 10px;
 }
+.navbar svg {
+	width: 2em;
+	height: 2em;
+}
 svg {
 	width: 1em;
 	height: 1em;
 }
-
 .lost {
 	margin-left: 1%;
 	margin-top: 5%;
