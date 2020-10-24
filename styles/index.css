@@ -77,7 +77,6 @@
 }
 .lost {
 	margin-left: 30%;
-
 }
 .mid-text {
 	color: black;
@@ -186,9 +185,6 @@
 	display: block;
   	flex-direction: column;
 }
-
-
-
 .navbar-img {
 	display: none;
 }
@@ -204,4 +200,15 @@
 .left-text, .last-buy {
 	width: 90%;
 	margin-left: 10px;
+}
+svg {
+	width: 1em;
+	height: 1em;
+}
+
+.lost {
+	margin-left: 1%;
+	margin-top: 5%;
+}
+
 }
