@@ -215,9 +215,13 @@ svg {
 	margin-left: 1%;
 	margin-top: 5%;
 }
-text .display-4 {
-	font-weight: 300;
-	font-size: 20;
+#money {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+button {
+	margin: 5px;
 }
 
 }
