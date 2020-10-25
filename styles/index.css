@@ -10,15 +10,11 @@
 }
 .navbar {
     position: relative;
-    position: -webkit-sticky; /* Safari */
 	position: sticky;
   	top: 0;
-
 }
 .navbar-img {
     position: relative;
-    /*left: 50%;*/
-    /*margin-left: -50px !important;*/
     display: block;
 }
 .nav-text {
@@ -176,8 +172,11 @@
 
 }
 .bottom-icon {
-	margin-left: 150px;
+	margin-left: 75px;
+	margin-right: 75px;
 }
+
+
 
 @media only screen and (max-width: 600px) {
 
@@ -191,10 +190,6 @@
 	display: none;
 }
 
-.bottom-nav {
-	display: block;
-	flex-direction: column;
-}
 .bottom-icon {
 	margin: 10px;
 }
@@ -233,6 +228,10 @@ button {
 	font-size: 20px;
 	text-align: center;	
 	margin-top: 20px;
+}
+
+.login {
+	margin: 50px;
 }
 
 }
