@@ -12,7 +12,6 @@
     position: relative;
 	position: sticky;
   	top: 0;
-
 }
 .navbar-img {
     position: relative;
@@ -105,16 +104,15 @@
 	flex-direction: row;
 	margin: auto;
 	width: 50%;
+	padding-bottom: 150px; 
 }
-/*#lost-password {
+#lost-password {
 	margin: auto;
-	width: 50%;	
 } 
 #register {
 	margin: auto;
-	width: 50%;
 }
-*/
+
 @media only screen and (max-width: 600px) {
 
 .navbar-img {
@@ -136,5 +134,33 @@ svg {
 
 button {
 	margin: 5px;
+}
+
+.login {
+	margin-top: 50%;
+	margin: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#submit-btn {
+	width: 100%;
+}
+.header-text {
+	margin-top: 5%;
+	display: block;
+	text-align: center;
+}
+.bottom-btn {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	width: 50%;
+	padding-bottom: 150px; 
+}
+#lost-password {
+	margin: auto;
+} 
+#register {
+	margin: auto;
 }
 }
