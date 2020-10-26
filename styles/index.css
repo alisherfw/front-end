@@ -1,237 +1,282 @@
 .main-navbar {
-	background-color: #dedede;
-	align-items: center;
-	height: 100px;
-	position: fixed;
+    background-color: #dedede;
+    align-items: center;
+    height: 100px;
+    position: fixed;
 }
+
 .nav-img {
-	height: 90px;
-	width: 220px;
+    height: 90px;
+    width: 220px;
 }
+
 .navbar {
     position: relative;
-	position: sticky;
-  	top: 0;
+    position: sticky;
+    top: 0;
 }
+
 .navbar-img {
     position: relative;
     display: block;
 }
+
 .nav-text {
-	font-family: Arial;
-	position: absolute;
-	margin-left: 70px;
+    font-family: Arial;
+    position: absolute;
+    margin-left: 70px;
 }
+
 .account-img {
-	height: 50px;
-	width: 50px;
+    height: 50px;
+    width: 50px;
 }
+
 #ac-img:hover {
-  content: url(../img/account_hover.png);
+    content: url(../img/account_hover.png);
 }
 
 .dropbtn {
-  background-color: #fff;
-  color: #000;
-  padding: 15px;
-  font-size: 16px;
-  border: none;
+    background-color: #fff;
+    color: #000;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
 }
+
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
+
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
+
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
-.dropdown-content a:hover {background-color: #fff;}
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #fff; color: #000;}
+
+.dropdown-content a:hover {
+    background-color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #fff;
+    color: #000;
+}
 
 .jumbotron {
-	margin: 30px;
-	background-color: #f1f1f1;
-	border-style: outset;
-	border-width: 1px;
-	border-color: #999999;
-	padding: 50px;
+    margin: 30px;
+    background-color: #f1f1f1;
+    border-style: outset;
+    border-width: 1px;
+    border-color: #999999;
+    padding: 50px;
 }
+
 .jumbotron-1 {
-	display: flex;
-  	flex-direction: row;	
+    display: flex;
+    flex-direction: row;
 }
+
 .lost {
-	margin-left: 30%;
+    margin-left: 30%;
 }
+
 .mid-text {
-	color: black;
-	font-weight: 300;
-	margin: 0px;
-	font-size: 26px;
+    color: black;
+    font-weight: 300;
+    margin: 0px;
+    font-size: 26px;
 }
+
 .question-img {
-	width: 50px;
-	height: 50px;
-	margin: 10px;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
 }
+
 #questionmark:hover {
-	content: url(../img/question_mark_hover.png);
+    content: url(../img/question_mark_hover.png);
 }
+
 .btn {
-  background-color: #dbdbdb; 
-  border: none; 
-  color: black; 
-  padding: 12px 16px; 
-  font-size: 20px; 
-  cursor: pointer; 
+    background-color: #dbdbdb;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .btn:hover {
-  background-color: white;
-  color: black;
+    background-color: white;
+    color: black;
 }
+
 .adblock {
-	text-align: center;
+    text-align: center;
 }
+
 .information {
-	width: 100%;
+    width: 100%;
 }
 
 .information h5 {
-	margin-top: 8px; 
-	margin-left: 150px;
+    margin-top: 8px;
+    margin-left: 150px;
 }
 
 .no-img {
-	width: 80%;
-	height: 200px;
-	background-color: #dbdbdb;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+    width: 80%;
+    height: 200px;
+    background-color: #dbdbdb;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
+
 .show-btn {
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
-	margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 0px;
 }
+
 .show-btn:hover {
-	background-color: #666;
+    background-color: #666;
 }
+
 #third {
-	display: none;
+    display: none;
 }
+
 .cls-btn {
-	margin-right: auto;
-	margin-left: auto;
-	display: none;
-	margin-top: 10px;	
+    margin-right: auto;
+    margin-left: auto;
+    display: none;
+    margin-top: 10px;
 }
+
 #closeButton:hover {
-	background-color: #666;
+    background-color: #666;
 }
+
 .left-text {
-	text-align: left;	
-	margin-left: 100px;
-	margin-top: 50px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 50px;
 }
 
 .last-buy {
-	margin:auto;
-	width: 40%;
- 	text-align: center;
+    margin: auto;
+    width: 40%;
+    text-align: center;
 }
+
 .dates {
-	display: flex;
-	flex-direction: row;
-	margin: auto;
-	width: 80%;
- 	text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 80%;
+    text-align: center;
 }
+
 .squads {
-	display: block;
-	flex-direction: column;
+    display: block;
+    flex-direction: column;
 }
+
 .bottom-nav {
-	display: block;
-	flex-direction: row;
-	margin-left: auto;
-	margin-right: auto;
+    display: block;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
 
 }
+
 .bottom-icon {
-	margin-left: 75px;
-	margin-right: 75px;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 
 
 @media only screen and (max-width: 600px) {
 
-.jumbotron-1 {
-	display: block;
-  	flex-direction: column;
-  	font-size: 1em;
-  	padding: 5px;
-}
-.navbar-img {
-	display: none;
-}
+    .jumbotron-1 {
+        display: block;
+        flex-direction: column;
+        font-size: 1em;
+        padding: 5px;
+    }
 
-.bottom-icon {
-	margin: 10px;
-}
+    .navbar-img {
+        display: none;
+    }
 
-.left-text, .last-buy {
-	width: 90%;
-	margin-left: 10px;
-}
-.navbar svg {
-	width: 2em;
-	height: 2em;
-}
-svg {
-	width: 1em;
-	height: 1em;
-}
-.lost {
-	margin-left: 1%;
-	margin-top: 5%;
-}
-#money {
-	font-size: 24px;
-	font-weight: 500;
-}
+    .bottom-icon {
+        margin: 10px;
+    }
 
-button {
-	margin: 5px;
-}
-.adblock {
-	display: block;
-	margin: auto;
-	width: 80%;
-	height: 5%;
-}
-#header-text {
-	font-size: 20px;
-	text-align: center;	
-	margin-top: 20px;
-}
+    .left-text,
+    .last-buy {
+        width: 90%;
+        margin-left: 10px;
+    }
 
-.login {
-	margin: 50px;
-}
+    .navbar svg {
+        width: 2em;
+        height: 2em;
+    }
+
+    svg {
+        width: 1em;
+        height: 1em;
+    }
+
+    .lost {
+        margin-left: 1%;
+        margin-top: 5%;
+    }
+
+    #money {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    button {
+        margin: 5px;
+    }
+
+    .adblock {
+        display: block;
+        margin: auto;
+        width: 80%;
+        height: 5%;
+    }
+
+    #header-text {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .login {
+        margin: 50px;
+    }
 
 }
