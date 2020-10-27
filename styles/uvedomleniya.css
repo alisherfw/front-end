@@ -1,13 +1,7 @@
-html {
-  min-height: 900px;
-}
 #account-img:hover {
     content: url('../img/account_hover.png');
 }
 @media only screen and (max-width: 700px) {
-    html {
-      min-height: 500px;
-    }
     #navbar-img {
         display: none;
     }

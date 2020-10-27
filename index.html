@@ -1,208 +1,187 @@
 <!doctype html>
 <html lang="ru">
-	<head>
-		
-		 <meta charset="utf-8">
-	     <meta name="viewport" content="width=device-width, initial-scale=1">
-     	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-     	 <link rel="stylesheet" type="text/css" href="styles/index.css">
-     	 
-     	 <title>Технология вкуса</title>
-	</head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <title>Технология вкуса</title>
+</head>
 
-	<body>
-			<nav class="navbar navbar-expand-lg  static-top main-navbar">
-			  <div class="container">
-				  	<text class="nav-text">
-				  		Фамили ИО <br>
-						Школа №44 <br>
-						3б класс <br>
-				  	</text>
+<body>
+    <nav class="navbar navbar-expand-lg  static-top main-navbar">
+        <div class="container">
+            <text class="nav-text">
+                Фамили ИО <br>
+                Школа №44 <br>
+                3б класс <br>
+            </text>
+            <a>
+                <img id="ac-img" class="account-img" src="img/account.png">
+            </a>
+            <a class="navbar-img">
+                <img class="nav-img" src="img/navbar.jpg" />
+            </a>
+            <div class="dropdown">
+                <button class="dropbtn">Меню</button>
+                <div class="dropdown-content">
+                    <a href="login.html">Логин</a>
+                    <a href="#">Текст</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron-1">
+            <div class="jmb-div">
+                <p class="lead"> Остаток на счете: </p>
+                <h3 id="money" class="display-4">500,55 Руб</h3>
+                <p class="lead">Потрачено сегодня: </p>
+                <h3 id="money" class="display-4">500,55 Руб </h1>
+                    <div>
+                        <button class="btn">
+                            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                            </svg>
+                            Пополнить
+                        </button>
+                        <button class="btn">
+                            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-repeat" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z" />
+                                <path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z" />
+                            </svg>
+                            Отчеты
+                        </button>
+                    </div>
+            </div>
+            <div class="lost">
+                <h4>Потреблено сегодня: </h4>
+                <div>
+                    <p class="mid-text"> 2200 кал </p>
+                    <p class="mid-text"> Жиры - 200 мг </p>
+                    <p class="mid-text"> Белки - 600 мг </p>
+                    <p class="mid-text"> Углеводы - 600мг</p>
+                </div>
+                <hr class="my-4">
+                <p>Информация о нормах питангия
+                    <img id="questionmark" class="question-img" src="img/question_mark.png">
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="adblock jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 id="money" class="display-4">блок с рекламой</h1>
+        </div>
+    </div>
+    <h1 id="header-text" style="text-align: center;"> Актуальная информация </h1>
+    <div class="information">
+        <h5>
+            Заголовок 1
+        </h5>
+        <img class="no-img" src="img/no-img.png">
+    </div>
+    <p> </p> <br>
+    <div class="information">
+        <h5>
+            Заголовок 2
+        </h5>
+        <img class="no-img" src="img/no-img.png">
+    </div>
+    <p> </p> <br>
+    <div id="third" class="information">
+        <h5>
+            Заголовок 3
+        </h5>
+        <img class="no-img" src="img/no-img.png">
+    </div>
+    <button id="showButton" type="button" class="show-btn btn btn-dark" onclick="showAll()">
+        Смотреть все
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+        </svg>
+    </button>
+    <button id="closeButton" type="button" class="cls-btn btn btn-dark" onclick="showAll()">
+        Закрыть
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+        </svg>
+    </button>
+    <h2 id="header-text" class="left-text"> Последние покупки: </h2>
+    <div class="last-buy">
+        <div class="dates">
+            <div> <strong> 14.12.19 - 14:30 </strong> </div>
+            <div style="width: 50px">
+                <hr>
+            </div>
+            <div> <strong> Котлета с пюре </strong> </div>
+            <div style="width: 50px">
+                <hr>
+            </div>
+            <div> <strong> 53 рубля </strong> </div>
+        </div>
+        <div class="squads">
+            <div> <strong> Белки\Жиры\Углеводы: </strong> 30\120\300 </div>
+            <div> <strong> Каллории: </strong> 2200 Калори </div>
+        </div>
+    </div>
+    <hr style="width: 30%">
+    <div class="last-buy">
+        <div class="dates">
+            <div> <strong> 14.12.19 - 14:30 </strong> </div>
+            <div style="width: 50px">
+                <hr>
+            </div>
+            <div> <strong> Котлета с пюре </strong> </div>
+            <div style="width: 50px">
+                <hr>
+            </div>
+            <div> <strong> 53 рубля </strong> </div>
+        </div>
+        <div class="squads">
+            <div> <strong> Белки\Жиры\Углеводы: </strong> 30\120\300 </div>
+            <div> <strong> Каллории: </strong> 2200 Калори </div>
+        </div>
+    </div>
+    <hr style="width: 30%">
+    <div class="last-buy">
+        <div class="dates">
+            <div> <strong> 14.12.19 - 14:30 </strong> </div>
+            <div style="width: 50px">
+                <hr>
+            </div>
+            <div> <strong> Котлета с пюре </strong> </div>
+            <div style="width: 50px">
+                <hr>
+            </div>
+            <div> <strong> 53 рубля </strong> </div>
+        </div>
+        <div class="squads">
+            <div> <strong> Белки\Жиры\Углеводы: </strong> 30\120\300 </div>
+            <div> <strong> Каллории: </strong> 2200 Калори </div>
+        </div>
+    </div>
+    <hr style="width: 30%">
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <div class="bottom-nav">
+            <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-calculator-fill bottom-icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm2 .5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-2zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zM4.5 9a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM4 12.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zM7.5 6a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM7 9.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm.5 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM10 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm.5 2.5a.5.5 0 0 0-.5.5v4a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 0-.5-.5h-1z" />
+            </svg>
+            <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-egg-fill bottom-icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 10a6 6 0 0 1-12 0C2 5.686 5 0 8 0s6 5.686 6 10z" />
+            </svg>
+            <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-envelope-open-fill bottom-icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.313l6.709 3.933L8 8.928l1.291.717L16 5.715V5.4a2 2 0 0 0-1.059-1.765l-6-3.2zM16 6.873l-5.693 3.337L16 13.372v-6.5zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516zM0 13.373l5.693-3.163L0 6.873v6.5z" />
+            </svg>
+            <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-chat-right-dots-fill bottom-icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353V2zM5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+            </svg>
+        </div>
+    </nav>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
 
-				  	<a>
-				  		<img id="ac-img" class="account-img" src="img/account.png">
-				  	</a>
-
-				    <a class="navbar-img">
-	  					<img class="nav-img" src="img/navbar.jpg" />
-					</a>
-
-					<div class="dropdown">
-					  <button class="dropbtn">Меню</button>
-					  <div class="dropdown-content">
-					    <a href="login.html">Логин</a>
-					    <a href="#">Текст</a>
-					  </div>
-					</div>
-
-			    </div>
-			</nav>
-
-			<div class="jumbotron jumbotron-fluid">
-				<div class="jumbotron-1">
-					<div class="jmb-div">
-						<p class="lead"> Остаток на счете: </p>
-						<h3 id="money" class="display-4">500,55 Руб</h3>
-					  	<p class="lead">Потрачено сегодня: </p>
-
-						<h3 id="money" class="display-4">500,55 Руб </h1>
-						<div>
-						
-						<button class="btn">
-							<svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-							<path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
-							</svg>
-							Пополнить
-						</button>
-
-						<button class="btn">
-							<svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-repeat" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-							  <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z"/>
-							  <path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z"/>
-							</svg>
-							Отчеты
-						</button>
-						
-						</div>
-					</div>
-					<div class="lost">
-							<h4>Потреблено сегодня: </h4>
-							<div>
-								<p class="mid-text"> 2200 кал </p>
-								<p class="mid-text"> Жиры - 200 мг </p>
-								<p class="mid-text"> Белки - 600 мг </p>
-								<p class="mid-text"> Углеводы - 600мг</p>
-							</div>
-
-							<hr class="my-4">	
-							<p>Информация о нормах питангия
-							<img id="questionmark" class="question-img" src="img/question_mark.png">
-							</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="adblock jumbotron jumbotron-fluid">
-			  <div class="container">
-			    <h1 id="money" class="display-4">блок с рекламой</h1>
-			    
-			  </div>
-			</div>
-
-			<h1  id="header-text" style="text-align: center;"> Актуальная информация </h1>
-
-			<div class="information">
-				<h5>
-					Заголовок 1
-				</h5>
-				<img class="no-img" src="img/no-img.png">
-			</div>
-			<p> </p> <br>
-			<div class="information">
-				<h5>
-					Заголовок 2 
-				</h5>
-				<img class="no-img" src="img/no-img.png">
-			</div>
-			<p> </p> <br>
-			<div id="third" class="information">
-				<h5>
-					Заголовок 3
-				</h5>
-				<img class="no-img" src="img/no-img.png">
-			</div>
-
-			<button id="showButton" type="button" class="show-btn btn btn-dark" onclick="showAll()">
-				Смотреть все
-				<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  				<path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
-				</svg>		
-			</button>
-
-			<button id="closeButton" type="button" class="cls-btn btn btn-dark" onclick="showAll()">
-				Закрыть
-				<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-				<path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
-				</svg>
-			</button>
-
-			<h2 id="header-text" class="left-text"> Последние покупки: </h2>
-
-			<div class="last-buy">
-				<div class="dates">
-					<div> <strong> 14.12.19 - 14:30 </strong> </div>
-					<div style="width: 50px"> <hr> </div>
-					<div> <strong> Котлета с пюре </strong>	</div>
-					<div style="width: 50px"> <hr> </div>
-					<div> <strong> 53 рубля </strong> </div> 
-				</div>
-
-				<div class="squads">
-					<div> <strong> Белки\Жиры\Углеводы: </strong> 30\120\300 </div>
-					<div> <strong> Каллории: </strong> 2200 Калори </div> 
-				</div>
-			</div>
-
-			<hr style="width: 30%">
-			<div class="last-buy">
-				<div class="dates">
-					<div> <strong> 14.12.19 - 14:30 </strong> </div>
-					<div style="width: 50px"> <hr> </div>
-					<div> <strong> Котлета с пюре </strong>	</div>
-					<div style="width: 50px"> <hr> </div>
-					<div> <strong> 53 рубля </strong> </div> 
-				</div>
-				<div class="squads">
-					<div> <strong> Белки\Жиры\Углеводы: </strong> 30\120\300 </div>
-					<div> <strong> Каллории: </strong> 2200 Калори </div> 
-				</div>
-			</div>
-
-			<hr style="width: 30%">
-			<div class="last-buy">
-				<div class="dates">
-					<div> <strong> 14.12.19 - 14:30 </strong> </div>
-					<div style="width: 50px"> <hr> </div>
-					<div> <strong> Котлета с пюре </strong>	</div>
-					<div style="width: 50px"> <hr> </div>
-					<div> <strong> 53 рубля </strong> </div> 
-				</div>
-
-				<div class="squads">
-					<div> <strong> Белки\Жиры\Углеводы: </strong> 30\120\300 </div>
-					<div> <strong> Каллории: </strong> 2200 Калори </div> 
-				</div>
-			</div>
-
-			<hr style="width: 30%">
-
-
-			<nav class="navbar fixed-bottom navbar-light bg-light">
-			  <div class="bottom-nav">
-
-			  <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-calculator-fill bottom-icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-			  <path fill-rule="evenodd" d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm2 .5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-2zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zM4.5 9a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM4 12.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zM7.5 6a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM7 9.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm.5 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM10 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm.5 2.5a.5.5 0 0 0-.5.5v4a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 0-.5-.5h-1z"/>
-			</svg>
-
-			<svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-egg-fill bottom-icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-			 <path d="M14 10a6 6 0 0 1-12 0C2 5.686 5 0 8 0s6 5.686 6 10z"/>
-			</svg>
-
-			<svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-envelope-open-fill bottom-icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-			<path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.313l6.709 3.933L8 8.928l1.291.717L16 5.715V5.4a2 2 0 0 0-1.059-1.765l-6-3.2zM16 6.873l-5.693 3.337L16 13.372v-6.5zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516zM0 13.373l5.693-3.163L0 6.873v6.5z"/>
-			</svg>
-
-			<svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-chat-right-dots-fill bottom-icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-			<path fill-rule="evenodd" d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353V2zM5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-			</svg>
-
-			</div>
-			
-			</nav>
-
-		<script type="text/javascript" src="js/script.js"></script>
-		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-	</body>
 </html>
