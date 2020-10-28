@@ -1,6 +1,4 @@
-html {
-    min-height: 1000px;
-}
+
 #account-img:hover {
     content: url('../img/account_hover.png');
 }
