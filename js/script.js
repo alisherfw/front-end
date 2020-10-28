@@ -1,17 +1,14 @@
-var x = document.getElementById("third");
-x.style.display = "none";
-
+var image = document.getElementById("img3");
+var imageText = document.getElementById("img3text");
+image.style.display = "none";
+imageText.style.display = "none";
 var showBtn = document.getElementById("showButton");
-var closeBtn = document.getElementById("closeButton");
-
 function showAll() {
-	if(x.style.display == "none") {
-		x.style.display = "block";
-		closeBtn.style.display = "block";
-		showBtn.style.display = "none";
+	if(image.style.display == "none" && imageText.style.display == "none") {
+		image.style.display = "block";
+		imageText.style.display = "block";
 	} else {
-		x.style.display = "none";
-		closeBtn.style.display = "none";
-		showBtn.style.display = "block";
+		image.style.display = "none";
+		imageText.style.display = "none";
 	}
 }
